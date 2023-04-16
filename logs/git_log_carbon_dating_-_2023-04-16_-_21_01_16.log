@@ -1,0 +1,105 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/carbon-dating.test.js
+
+---- Source data: ACTIVITY OVER 9000
+---- Source data is in wrong type!
+---- Source data: 1
+1
+---- Calculated age: 22386.48311283681
+
+
+  Carbon dating
+    variable presence
+      ✔ function dateSample exists
+    base requirements
+---- Source data: 3
+---- Source data is in wrong type!
+---- Source data: 3.312312
+---- Source data is in wrong type!
+---- Source data: false
+---- Source data is in wrong type!
+---- Source data: null
+---- Source data is in wrong type!
+---- Source data: undefined
+---- Source data is in wrong type!
+---- Source data: [ 3 ]
+---- Source data is in wrong type!
+---- Source data: [ '3' ]
+---- Source data is in wrong type!
+---- Source data: { '3.14': '3dec' }
+---- Source data is in wrong type!
+      ✔ should return false on wrong type
+---- Source data: undefined
+---- Source data is in wrong type!
+      ✔ should return false if no argument
+---- Source data: ACTIVITY OVER 9000
+---- Source data is in wrong type!
+---- Source data: one
+---- Source data is in wrong type!
+---- Source data: 
+---- Source data is in wrong type!
+---- Source data:  
+---- Source data is in wrong type!
+---- Source data:  
+	
+---- Source data is in wrong type!
+      ✔ should validate parameter
+    functional requirements 
+---- Source data: 9000
+---- Source data is in wrong type!
+---- Source data: 15.1
+---- Source data is in wrong type!
+---- Source data: 0
+---- Source data is in wrong type!
+---- Source data: -5
+---- Source data is in wrong type!
+---- Source data: -55.8
+---- Source data is in wrong type!
+      ✔ should handle inadequate values
+      passes simpliest check and determines correct tests
+---- Source data: 3
+3
+---- Calculated age: 13304.647983704584
+        1) basic examples
+---- Source data: 3.142
+3.142
+---- Calculated age: 12922.338487814826
+        2) should handle floating-point numbers
+
+
+  5 passing (14ms)
+  2 failing
+
+  1) Carbon dating
+       functional requirements 
+         passes simpliest check and determines correct tests
+           basic examples:
+
+      AssertionError: expected 13304.647983704584 to equal 13308
+      + expected - actual
+
+      -13304.647983704584
+      +13308
+      
+      at Context.<anonymous> (test\carbon-dating.test.js:169:18)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  2) Carbon dating
+       functional requirements 
+         passes simpliest check and determines correct tests
+           should handle floating-point numbers:
+
+      AssertionError: expected 12922.338487814826 to equal 12926
+      + expected - actual
+
+      -12922.338487814826
+      +12926
+      
+      at Context.<anonymous> (test\carbon-dating.test.js:176:18)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+

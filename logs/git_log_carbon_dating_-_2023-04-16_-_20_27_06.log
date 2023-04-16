@@ -1,0 +1,84 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/carbon-dating.test.js
+
+---- Source data: asd
+---- Source data is not number!
+---- Source data: 1
+---- Source data is not number!
+
+
+  Carbon dating
+    variable presence
+      ✔ function dateSample exists
+    base requirements
+---- Source data: 3
+---- Calculated age: null
+      1) should return false on wrong type
+---- Source data: undefined
+---- Source data is not number!
+      ✔ should return false if no argument
+---- Source data: ACTIVITY OVER 9000
+---- Source data is not number!
+---- Source data: one
+---- Source data is not number!
+---- Source data: 
+---- Source data is not number!
+---- Source data:  
+---- Source data is not number!
+---- Source data:  
+	
+---- Source data is not number!
+      ✔ should validate parameter
+    functional requirements 
+---- Source data: 9000
+---- Source data is not number!
+---- Source data: 15.1
+---- Source data is not number!
+---- Source data: 0
+---- Source data is not number!
+---- Source data: -5
+---- Source data is not number!
+---- Source data: -55.8
+---- Source data is not number!
+      ✔ should handle inadequate values
+      passes simpliest check and determines correct tests
+---- Source data: 3
+---- Source data is not number!
+        2) basic examples
+---- Source data: 3.142
+---- Source data is not number!
+        3) should handle floating-point numbers
+
+
+  4 passing (16ms)
+  3 failing
+
+  1) Carbon dating
+       base requirements
+         should return false on wrong type:
+     AssertionError: expected undefined to equal false
+      at Context.<anonymous> (test\carbon-dating.test.js:23:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  2) Carbon dating
+       functional requirements 
+         passes simpliest check and determines correct tests
+           basic examples:
+     AssertionError: expected false to equal 13308
+      at Context.<anonymous> (test\carbon-dating.test.js:169:18)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  3) Carbon dating
+       functional requirements 
+         passes simpliest check and determines correct tests
+           should handle floating-point numbers:
+     AssertionError: expected false to equal 12926
+      at Context.<anonymous> (test\carbon-dating.test.js:176:18)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+

@@ -1,0 +1,511 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/carbon-dating.test.js
+
+---- Source data: ACTIVITY OVER 9000
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: 1
+---- Rounded data: 1
+1
+---- Calculated age: 22387
+
+
+  Carbon dating
+    variable presence
+      ✔ function dateSample exists
+    base requirements
+---- Source data: 3
+---- Rounded data: 3
+---- Source data is in wrong type!
+---- Source data: 3.312312
+---- Rounded data: 4
+---- Source data is in wrong type!
+---- Source data: false
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data: null
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data: undefined
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: [ 3 ]
+---- Rounded data: 3
+---- Source data is in wrong type!
+---- Source data: [ '3' ]
+---- Rounded data: 3
+---- Source data is in wrong type!
+---- Source data: { '3.14': '3dec' }
+---- Rounded data: NaN
+---- Source data is in wrong type!
+      ✔ should return false on wrong type
+---- Source data: undefined
+---- Rounded data: NaN
+---- Source data is in wrong type!
+      ✔ should return false if no argument
+---- Source data: ACTIVITY OVER 9000
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: one
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: 
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data:  
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data:  
+	
+---- Rounded data: 0
+---- Source data is in wrong type!
+      ✔ should validate parameter
+    functional requirements 
+---- Source data: 9000
+---- Rounded data: 9000
+---- Source data is in wrong type!
+---- Source data: 15.1
+---- Rounded data: 16
+---- Source data is in wrong type!
+---- Source data: 0
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data: -5
+---- Rounded data: -5
+---- Source data is in wrong type!
+---- Source data: -55.8
+---- Rounded data: -55
+---- Source data is in wrong type!
+      ✔ should handle inadequate values
+      passes simpliest check and determines correct tests
+---- Source data: 3
+---- Rounded data: 3
+3
+---- Calculated age: 13305
+---- Source data: 1
+---- Rounded data: 1
+1
+---- Calculated age: 22387
+---- Source data: 9
+---- Rounded data: 9
+9
+---- Calculated age: 4223
+---- Source data: 11
+---- Rounded data: 11
+11
+---- Calculated age: 2564
+        ✔ basic examples
+---- Source data: 3.142
+---- Rounded data: 4
+3.142
+---- Calculated age: 12923
+---- Source data: 1.1
+---- Rounded data: 2
+1.1
+---- Calculated age: 21599
+---- Source data: 9.8888
+---- Rounded data: 10
+9.8888
+---- Calculated age: 3445
+---- Source data: 9.59383373526808
+---- Rounded data: 10
+9.59383373526808
+---- Calculated age: 3695
+---- Source data: 9.122605776326203
+---- Rounded data: 10
+9.122605776326203
+---- Calculated age: 4111
+---- Source data: 8.738732722522064
+---- Rounded data: 9
+8.738732722522064
+---- Calculated age: 4467
+---- Source data: 1.6196187736736514
+---- Rounded data: 2
+1.6196187736736514
+---- Calculated age: 18401
+---- Source data: 1.2790192613422384
+---- Rounded data: 2
+1.2790192613422384
+---- Calculated age: 20353
+---- Source data: 2.888875299486392
+---- Rounded data: 3
+2.888875299486392
+---- Calculated age: 13617
+---- Source data: 10.98064159551825
+---- Rounded data: 11
+10.98064159551825
+---- Calculated age: 2579
+---- Source data: 5.777957759163509
+---- Rounded data: 6
+5.777957759163509
+---- Calculated age: 7887
+---- Source data: 6.621137546046827
+---- Rounded data: 7
+6.621137546046827
+---- Calculated age: 6761
+---- Source data: 2.3428430852333437
+---- Rounded data: 3
+2.3428430852333437
+---- Calculated age: 15349
+---- Source data: 7.724878580528199
+---- Rounded data: 8
+7.724878580528199
+---- Calculated age: 5486
+---- Source data: 13.120235263248446
+---- Rounded data: 14
+13.120235263248446
+---- Calculated age: 1107
+---- Source data: 8.324373471546389
+---- Rounded data: 9
+8.324373471546389
+---- Calculated age: 4868
+---- Source data: 1.7062450205046806
+---- Rounded data: 2
+1.7062450205046806
+---- Calculated age: 17970
+---- Source data: 1.6311084198720187
+---- Rounded data: 2
+1.6311084198720187
+---- Calculated age: 18342
+---- Source data: 5.594044275261709
+---- Rounded data: 6
+5.594044275261709
+---- Calculated age: 8154
+---- Source data: 14.108797507106168
+---- Rounded data: 15
+14.108797507106168
+---- Calculated age: 507
+---- Source data: 14.146539705560468
+---- Rounded data: 15
+14.146539705560468
+---- Calculated age: 485
+---- Source data: 13.33347987044412
+---- Rounded data: 14
+13.33347987044412
+---- Calculated age: 974
+---- Source data: 4.765932877283877
+---- Rounded data: 5
+4.765932877283877
+---- Calculated age: 9479
+---- Source data: 8.51944141558894
+---- Rounded data: 9
+8.51944141558894
+---- Calculated age: 4677
+---- Source data: 13.819309017181155
+---- Rounded data: 14
+13.819309017181155
+---- Calculated age: 678
+---- Source data: 11.950183315442594
+---- Rounded data: 12
+11.950183315442594
+---- Calculated age: 1880
+---- Source data: 12.694626753019994
+---- Rounded data: 13
+12.694626753019994
+---- Calculated age: 1380
+---- Source data: 6.3761953094543955
+---- Rounded data: 7
+6.3761953094543955
+---- Calculated age: 7072
+---- Source data: 12.852141151476653
+---- Rounded data: 13
+12.852141151476653
+---- Calculated age: 1278
+---- Source data: 13.071039628340847
+---- Rounded data: 14
+13.071039628340847
+---- Calculated age: 1138
+---- Source data: 6.493986520194598
+---- Rounded data: 7
+6.493986520194598
+---- Calculated age: 6921
+---- Source data: 6.321328150621245
+---- Rounded data: 7
+6.321328150621245
+---- Calculated age: 7144
+---- Source data: 14.79870028971672
+---- Rounded data: 15
+14.79870028971672
+---- Calculated age: 112
+---- Source data: 13.250266175530076
+---- Rounded data: 14
+13.250266175530076
+---- Calculated age: 1026
+---- Source data: 6.944901487088341
+---- Rounded data: 7
+6.944901487088341
+---- Calculated age: 6366
+---- Source data: 14.397174904284904
+---- Rounded data: 15
+14.397174904284904
+---- Calculated age: 340
+---- Source data: 4.350361469537699
+---- Rounded data: 5
+4.350361469537699
+---- Calculated age: 10233
+---- Source data: 14.649855450638785
+---- Rounded data: 15
+14.649855450638785
+---- Calculated age: 196
+---- Source data: 10.480192633840995
+---- Rounded data: 11
+10.480192633840995
+---- Calculated age: 2965
+---- Source data: 7.574553306075307
+---- Rounded data: 8
+7.574553306075307
+---- Calculated age: 5649
+---- Source data: 4.196977266712704
+---- Rounded data: 5
+4.196977266712704
+---- Calculated age: 10530
+---- Source data: 5.48287476036236
+---- Rounded data: 6
+5.48287476036236
+---- Calculated age: 8320
+---- Source data: 2.2141874881551713
+---- Rounded data: 3
+2.2141874881551713
+---- Calculated age: 15816
+---- Source data: 14.562893448904727
+---- Rounded data: 15
+14.562893448904727
+---- Calculated age: 245
+---- Source data: 14.67235077668104
+---- Rounded data: 15
+14.67235077668104
+---- Calculated age: 183
+---- Source data: 13.286561059407228
+---- Rounded data: 14
+13.286561059407228
+---- Calculated age: 1003
+---- Source data: 10.151088522661208
+---- Rounded data: 11
+10.151088522661208
+---- Calculated age: 3228
+---- Source data: 1.4679868631708581
+---- Rounded data: 2
+1.4679868631708581
+---- Calculated age: 19213
+---- Source data: 9.132918506822495
+---- Rounded data: 10
+9.132918506822495
+---- Calculated age: 4102
+---- Source data: 10.537246317166375
+---- Rounded data: 11
+10.537246317166375
+---- Calculated age: 2920
+---- Source data: 8.463376256343299
+---- Rounded data: 9
+8.463376256343299
+---- Calculated age: 4732
+---- Source data: 12.853448858927361
+---- Rounded data: 13
+12.853448858927361
+---- Calculated age: 1277
+---- Source data: 9.236099344252306
+---- Rounded data: 10
+9.236099344252306
+---- Calculated age: 4009
+---- Source data: 12.113017234434977
+---- Rounded data: 13
+12.113017234434977
+---- Calculated age: 1768
+---- Source data: 7.0346778442616085
+---- Rounded data: 8
+7.0346778442616085
+---- Calculated age: 6260
+---- Source data: 6.461538179672999
+---- Rounded data: 7
+6.461538179672999
+---- Calculated age: 6963
+---- Source data: 5.726699236202798
+---- Rounded data: 6
+5.726699236202798
+---- Calculated age: 7961
+---- Source data: 6.399077744469016
+---- Rounded data: 7
+6.399077744469016
+---- Calculated age: 7043
+---- Source data: 8.910632728691352
+---- Rounded data: 9
+8.910632728691352
+---- Calculated age: 4306
+---- Source data: 12.395711646870861
+---- Rounded data: 13
+12.395711646870861
+---- Calculated age: 1577
+---- Source data: 2.627831588550764
+---- Rounded data: 3
+2.627831588550764
+---- Calculated age: 14400
+---- Source data: 13.142621168637024
+---- Rounded data: 14
+13.142621168637024
+---- Calculated age: 1093
+---- Source data: 9.351818919371734
+---- Rounded data: 10
+9.351818919371734
+---- Calculated age: 3906
+---- Source data: 4.825870296787675
+---- Rounded data: 5
+4.825870296787675
+---- Calculated age: 9375
+---- Source data: 1.3098215892199763
+---- Rounded data: 2
+1.3098215892199763
+---- Calculated age: 20156
+---- Source data: 8.75663581378592
+---- Rounded data: 9
+8.75663581378592
+---- Calculated age: 4450
+---- Source data: 4.209610674222847
+---- Rounded data: 5
+4.209610674222847
+---- Calculated age: 10505
+---- Source data: 1.2765589684191272
+---- Rounded data: 2
+1.2765589684191272
+---- Calculated age: 20369
+---- Source data: 5.7578457344628955
+---- Rounded data: 6
+5.7578457344628955
+---- Calculated age: 7916
+---- Source data: 5.235717978655887
+---- Rounded data: 6
+5.235717978655887
+---- Calculated age: 8702
+---- Source data: 7.274903980560317
+---- Rounded data: 8
+7.274903980560317
+---- Calculated age: 5982
+---- Source data: 14.58820616255119
+---- Rounded data: 15
+14.58820616255119
+---- Calculated age: 231
+---- Source data: 12.524538378535606
+---- Rounded data: 13
+12.524538378535606
+---- Calculated age: 1491
+---- Source data: 1.2078020863539156
+---- Rounded data: 2
+1.2078020863539156
+---- Calculated age: 20826
+---- Source data: 14.40378832713592
+---- Rounded data: 15
+14.40378832713592
+---- Calculated age: 336
+---- Source data: 3.3957038035064295
+---- Rounded data: 4
+3.3957038035064295
+---- Calculated age: 12281
+---- Source data: 8.027346033974952
+---- Rounded data: 9
+8.027346033974952
+---- Calculated age: 5169
+---- Source data: 9.100586351039066
+---- Rounded data: 10
+9.100586351039066
+---- Calculated age: 4131
+---- Source data: 12.325349094365222
+---- Rounded data: 13
+12.325349094365222
+---- Calculated age: 1624
+---- Source data: 9.426088638589919
+---- Rounded data: 10
+9.426088638589919
+---- Calculated age: 3841
+---- Source data: 11.526074668808832
+---- Rounded data: 12
+11.526074668808832
+---- Calculated age: 2178
+---- Source data: 13.154878524299226
+---- Rounded data: 14
+13.154878524299226
+---- Calculated age: 1086
+---- Source data: 10.26771664914319
+---- Rounded data: 11
+10.26771664914319
+---- Calculated age: 3134
+---- Source data: 3.2809840641143047
+---- Rounded data: 4
+3.2809840641143047
+---- Calculated age: 12565
+---- Source data: 1.5785238224683922
+---- Rounded data: 2
+1.5785238224683922
+---- Calculated age: 18613
+---- Source data: 12.787884876823437
+---- Rounded data: 13
+12.787884876823437
+---- Calculated age: 1319
+---- Source data: 9.133070472061402
+---- Rounded data: 10
+9.133070472061402
+---- Calculated age: 4102
+---- Source data: 1.1977519436068427
+---- Rounded data: 2
+1.1977519436068427
+---- Calculated age: 20895
+---- Source data: 5.748497796807982
+---- Rounded data: 6
+5.748497796807982
+---- Calculated age: 7929
+---- Source data: 8.45786238798846
+---- Rounded data: 9
+8.45786238798846
+---- Calculated age: 4737
+---- Source data: 9.835188024820345
+---- Rounded data: 10
+9.835188024820345
+---- Calculated age: 3490
+---- Source data: 11.507915591529642
+---- Rounded data: 12
+11.507915591529642
+---- Calculated age: 2191
+---- Source data: 9.847248139766663
+---- Rounded data: 10
+9.847248139766663
+---- Calculated age: 3480
+---- Source data: 12.996494080154942
+---- Rounded data: 13
+12.996494080154942
+---- Calculated age: 1186
+---- Source data: 7.763901479948043
+---- Rounded data: 8
+7.763901479948043
+---- Calculated age: 5445
+---- Source data: 10.82564557289928
+---- Rounded data: 11
+10.82564557289928
+---- Calculated age: 2697
+---- Source data: 12.10115029373225
+---- Rounded data: 13
+12.10115029373225
+---- Calculated age: 1776
+---- Source data: 14.215290008732916
+---- Rounded data: 15
+14.215290008732916
+---- Calculated age: 445
+---- Source data: 11.489246279071903
+---- Rounded data: 12
+11.489246279071903
+---- Calculated age: 2205
+---- Source data: 2.412658071378013
+---- Rounded data: 3
+2.412658071378013
+---- Calculated age: 15106
+---- Source data: 13.075499143313442
+---- Rounded data: 14
+13.075499143313442
+---- Calculated age: 1136
+---- Source data: 6.555955979600091
+---- Rounded data: 7
+6.555955979600091
+---- Calculated age: 6843
+        ✔ should handle floating-point numbers
+
+
+  7 passing (18ms)
+

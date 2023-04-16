@@ -1,0 +1,125 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/carbon-dating.test.js
+
+---- Source data: ACTIVITY OVER 9000
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: 1
+---- Rounded data: 1
+1
+---- Calculated age: 22387
+
+
+  Carbon dating
+    variable presence
+      ✔ function dateSample exists
+    base requirements
+---- Source data: 3
+---- Rounded data: 3
+---- Source data is in wrong type!
+---- Source data: 3.312312
+---- Rounded data: 4
+---- Source data is in wrong type!
+---- Source data: false
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data: null
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data: undefined
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: [ 3 ]
+---- Rounded data: 3
+---- Source data is in wrong type!
+---- Source data: [ '3' ]
+---- Rounded data: 3
+---- Source data is in wrong type!
+---- Source data: { '3.14': '3dec' }
+---- Rounded data: NaN
+---- Source data is in wrong type!
+      ✔ should return false on wrong type
+---- Source data: undefined
+---- Rounded data: NaN
+---- Source data is in wrong type!
+      ✔ should return false if no argument
+---- Source data: ACTIVITY OVER 9000
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: one
+---- Rounded data: NaN
+---- Source data is in wrong type!
+---- Source data: 
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data:  
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data:  
+	
+---- Rounded data: 0
+---- Source data is in wrong type!
+      ✔ should validate parameter
+    functional requirements 
+---- Source data: 9000
+---- Rounded data: 9000
+---- Source data is in wrong type!
+---- Source data: 15.1
+---- Rounded data: 16
+---- Source data is in wrong type!
+---- Source data: 0
+---- Rounded data: 0
+---- Source data is in wrong type!
+---- Source data: -5
+---- Rounded data: -5
+---- Source data is in wrong type!
+---- Source data: -55.8
+---- Rounded data: -55
+---- Source data is in wrong type!
+      ✔ should handle inadequate values
+      passes simpliest check and determines correct tests
+---- Source data: 3
+---- Rounded data: 3
+3
+---- Calculated age: 13305
+---- Source data: 1
+---- Rounded data: 1
+1
+---- Calculated age: 22387
+---- Source data: 9
+---- Rounded data: 9
+9
+---- Calculated age: 4223
+---- Source data: 11
+---- Rounded data: 11
+11
+---- Calculated age: 2564
+        ✔ basic examples
+---- Source data: 3.142
+---- Rounded data: 4
+3.142
+---- Calculated age: 10927
+        1) should handle floating-point numbers
+
+
+  6 passing (19ms)
+  1 failing
+
+  1) Carbon dating
+       functional requirements 
+         passes simpliest check and determines correct tests
+           should handle floating-point numbers:
+
+      AssertionError: expected 10927 to equal 12923
+      + expected - actual
+
+      -10927
+      +12923
+      
+      at Context.<anonymous> (test\carbon-dating.test.js:64:18)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+
