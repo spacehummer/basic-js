@@ -17,10 +17,38 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
-function dateSample(/* sampleActivity */) {
-  throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
+function dateSample(sampleActivity) {
+  // throw new NotImplementedError('Not implemented');
+  // // remove line with error and write your code here
+
+  let t = null;
+
+  console.log("---- Source data:", sampleActivity);
+  console.log("---- Rounded data:", Math.ceil(Number(sampleActivity)));
+
+  if (
+    typeof (Number(sampleActivity)) !== "number"
+    || Number(sampleActivity) <= 0
+    || Number(sampleActivity) >= 15
+    || typeof sampleActivity !== "string"
+    || isNaN(Number(sampleActivity))
+  ) {
+    console.log("---- Source data is in wrong type!");
+    return false;
+  }
+
+  t = Math.ceil((Math.log(MODERN_ACTIVITY/(Number(sampleActivity)))*HALF_LIFE_PERIOD)/Math.log(2));
+
+  console.log("---- Calculated age:", t);
+  return t;
+
 }
+
+// Test scripts
+// npm run test > "./logs/git_log_all_tests_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
+// npm run test ./test/carbon-dating.test.js  > "./logs/git_log_count_cats_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
+
+dateSample("ACTIVITY OVER 9000");
 
 module.exports = {
   dateSample
