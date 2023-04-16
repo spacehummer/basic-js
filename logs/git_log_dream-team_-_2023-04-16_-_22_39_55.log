@@ -1,0 +1,169 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/dream-team.test.js
+
+
+
+  Dream team
+    variable presence
+      ✔ function createDreamTeam exists
+    base requirements
+---- Source data: [ 'Amelia', 'Grace', 'Lily', 'Ruby' ]
+---- Initialis : AGLR
+      ✔ should return sequence from pre-sorted array
+---- Source data: [
+  'Peter',    'Adam',
+  'Gary',     'Bobby',
+  'Philip',   'Andrea',
+  'Evelyn',   'Evelyn',
+  'Kimberly', 'Denise'
+]
+---- Initialis : PAGBPAEEKD
+      1) should return sorted sequence
+---- Source data: []
+---- Initialis : 
+      ✔ empty team shouldn't lead to error
+    functional requirements 
+---- Source data: [
+  '   William Alston ',
+  ' Paul Benacerraf',
+  '  Ross Cameron',
+  '       Gilles Deleuze',
+  '  Arda Denkel ',
+  '  Michael Devitt',
+  '  Kit Fine',
+  ' Nelson Goodman',
+  'David Kolb',
+  '   Saul Kripke',
+  '  Trenton Merricks',
+  '  Jay Rosenberg'
+]
+---- Initialis : WPRGAMKNDSTJ
+      2) should handle whitespaces
+---- Source data: [
+  'amelia', 'ruby',
+  'lily',   'grace',
+  'millie', 'daisy',
+  'freya',  'erin',
+  'megan',  'jasmine',
+  'brooke'
+]
+---- Initialis : ARLGMDFEMJB
+      3) should handle lowercase
+---- Source data: 3
+      4) should return false on wrong type
+---- Source data: [
+  'Amelia',                 null,
+  undefined,                'Ruby',
+  'Lily',                   11,
+  'Grace',                  22,
+  'Millie',                 'Daisy',
+  true,                     'Freya',
+  false,                    'Erin',
+  Set(5) { 1, 2, 3, 4, 5 }, 'Megan',
+  { John: 'Smith' },        'Jasmine',
+  1,                        2,
+  3,                        4,
+  5,                        'Brooke'
+]
+---- Initialis : ARLGMDFEMJB
+      5) should ignore non-string values
+---- Source data: [
+  [ 'David Abram' ],
+  [ 'Robin Attfield' ],
+  'Thomas Berry',
+  [ 'Paul R.Ehrlich' ],
+  'donna Haraway',
+  ' BrIaN_gOodWiN  ',
+  { '0': 'Serenella Iovino' },
+  'Erazim Kohak',
+  '  val_plumwood'
+]
+---- Initialis : TDBEV
+      6) should handle non-standard cases
+
+
+  3 passing (19ms)
+  6 failing
+
+  1) Dream team
+       base requirements
+         should return sorted sequence:
+
+      AssertionError: expected 'PAGBPAEEKD' to equal 'AABDEEGKPP'
+      + expected - actual
+
+      -PAGBPAEEKD
+      +AABDEEGKPP
+      
+      at Context.<anonymous> (test\dream-team.test.js:35:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  2) Dream team
+       functional requirements 
+         should handle whitespaces:
+
+      AssertionError: expected 'WPRGAMKNDSTJ' to equal 'ADGJKMNPRSTW'
+      + expected - actual
+
+      -WPRGAMKNDSTJ
+      +ADGJKMNPRSTW
+      
+      at Context.<anonymous> (test\dream-team.test.js:146:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  3) Dream team
+       functional requirements 
+         should handle lowercase:
+
+      AssertionError: expected 'ARLGMDFEMJB' to equal 'ABDEFGJLMMR'
+      + expected - actual
+
+      -ARLGMDFEMJB
+      +ABDEFGJLMMR
+      
+      at Context.<anonymous> (test\dream-team.test.js:162:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  4) Dream team
+       functional requirements 
+         should return false on wrong type:
+     TypeError: members.forEach is not a function
+      at createDreamTeam (src\dream-team.js:24:11)
+      at Context.<anonymous> (test\dream-team.test.js:177:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  5) Dream team
+       functional requirements 
+         should ignore non-string values:
+
+      AssertionError: expected 'ARLGMDFEMJB' to equal 'ABDEFGJLMMR'
+      + expected - actual
+
+      -ARLGMDFEMJB
+      +ABDEFGJLMMR
+      
+      at Context.<anonymous> (test\dream-team.test.js:185:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  6) Dream team
+       functional requirements 
+         should handle non-standard cases:
+
+      AssertionError: expected 'TDBEV' to equal 'BDETV'
+      + expected - actual
+
+      -TDBEV
+      +BDETV
+      
+      at Context.<anonymous> (test\dream-team.test.js:215:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+

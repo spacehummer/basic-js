@@ -1,0 +1,183 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/dream-team.test.js
+
+
+
+  Dream team
+    variable presence
+      ✔ function createDreamTeam exists
+    base requirements
+---- Source data: [ 'Amelia', 'Grace', 'Lily', 'Ruby' ]
+---- Initialis : A,G,L,R
+      1) should return sequence from pre-sorted array
+---- Source data: [
+  'Peter',    'Adam',
+  'Gary',     'Bobby',
+  'Philip',   'Andrea',
+  'Evelyn',   'Evelyn',
+  'Kimberly', 'Denise'
+]
+---- Initialis : P,A,G,B,P,A,E,E,K,D
+      2) should return sorted sequence
+---- Source data: []
+---- Initialis : 
+      ✔ empty team shouldn't lead to error
+    functional requirements 
+---- Source data: [
+  '   William Alston ',
+  ' Paul Benacerraf',
+  '  Ross Cameron',
+  '       Gilles Deleuze',
+  '  Arda Denkel ',
+  '  Michael Devitt',
+  '  Kit Fine',
+  ' Nelson Goodman',
+  'David Kolb',
+  '   Saul Kripke',
+  '  Trenton Merricks',
+  '  Jay Rosenberg'
+]
+---- Initialis : W,P,R,G,A,M,K,N,D,S,T,J
+      3) should handle whitespaces
+---- Source data: [
+  'amelia', 'ruby',
+  'lily',   'grace',
+  'millie', 'daisy',
+  'freya',  'erin',
+  'megan',  'jasmine',
+  'brooke'
+]
+---- Initialis : A,R,L,G,M,D,F,E,M,J,B
+      4) should handle lowercase
+---- Source data: 3
+      5) should return false on wrong type
+---- Source data: [
+  'Amelia',                 null,
+  undefined,                'Ruby',
+  'Lily',                   11,
+  'Grace',                  22,
+  'Millie',                 'Daisy',
+  true,                     'Freya',
+  false,                    'Erin',
+  Set(5) { 1, 2, 3, 4, 5 }, 'Megan',
+  { John: 'Smith' },        'Jasmine',
+  1,                        2,
+  3,                        4,
+  5,                        'Brooke'
+]
+---- Initialis : A,R,L,G,M,D,F,E,M,J,B
+      6) should ignore non-string values
+---- Source data: [
+  [ 'David Abram' ],
+  [ 'Robin Attfield' ],
+  'Thomas Berry',
+  [ 'Paul R.Ehrlich' ],
+  'donna Haraway',
+  ' BrIaN_gOodWiN  ',
+  { '0': 'Serenella Iovino' },
+  'Erazim Kohak',
+  '  val_plumwood'
+]
+---- Initialis : T,D,B,E,V
+      7) should handle non-standard cases
+
+
+  2 passing (16ms)
+  7 failing
+
+  1) Dream team
+       base requirements
+         should return sequence from pre-sorted array:
+
+      AssertionError: expected 'A,G,L,R' to equal 'AGLR'
+      + expected - actual
+
+      -A,G,L,R
+      +AGLR
+      
+      at Context.<anonymous> (test\dream-team.test.js:26:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  2) Dream team
+       base requirements
+         should return sorted sequence:
+
+      AssertionError: expected 'P,A,G,B,P,A,E,E,K,D' to equal 'AABDEEGKPP'
+      + expected - actual
+
+      -P,A,G,B,P,A,E,E,K,D
+      +AABDEEGKPP
+      
+      at Context.<anonymous> (test\dream-team.test.js:35:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  3) Dream team
+       functional requirements 
+         should handle whitespaces:
+
+      AssertionError: expected 'W,P,R,G,A,M,K,N,D,S,T,J' to equal 'ADGJKMNPRSTW'
+      + expected - actual
+
+      -W,P,R,G,A,M,K,N,D,S,T,J
+      +ADGJKMNPRSTW
+      
+      at Context.<anonymous> (test\dream-team.test.js:146:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  4) Dream team
+       functional requirements 
+         should handle lowercase:
+
+      AssertionError: expected 'A,R,L,G,M,D,F,E,M,J,B' to equal 'ABDEFGJLMMR'
+      + expected - actual
+
+      -A,R,L,G,M,D,F,E,M,J,B
+      +ABDEFGJLMMR
+      
+      at Context.<anonymous> (test\dream-team.test.js:162:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  5) Dream team
+       functional requirements 
+         should return false on wrong type:
+     TypeError: members.forEach is not a function
+      at createDreamTeam (src\dream-team.js:24:11)
+      at Context.<anonymous> (test\dream-team.test.js:177:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  6) Dream team
+       functional requirements 
+         should ignore non-string values:
+
+      AssertionError: expected 'A,R,L,G,M,D,F,E,M,J,B' to equal 'ABDEFGJLMMR'
+      + expected - actual
+
+      -A,R,L,G,M,D,F,E,M,J,B
+      +ABDEFGJLMMR
+      
+      at Context.<anonymous> (test\dream-team.test.js:185:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  7) Dream team
+       functional requirements 
+         should handle non-standard cases:
+
+      AssertionError: expected 'T,D,B,E,V' to equal 'BDETV'
+      + expected - actual
+
+      -T,D,B,E,V
+      +BDETV
+      
+      at Context.<anonymous> (test\dream-team.test.js:215:14)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+

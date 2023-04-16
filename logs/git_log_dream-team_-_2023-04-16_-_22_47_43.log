@@ -1,0 +1,876 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/dream-team.test.js
+
+
+
+  Dream team
+    variable presence
+      ✔ function createDreamTeam exists
+    base requirements
+---- Source data: [ 'Amelia', 'Grace', 'Lily', 'Ruby' ]
+---- Initialis : AGLR
+      ✔ should return sequence from pre-sorted array
+---- Source data: [
+  'Peter',    'Adam',
+  'Gary',     'Bobby',
+  'Philip',   'Andrea',
+  'Evelyn',   'Evelyn',
+  'Kimberly', 'Denise'
+]
+---- Initialis : AABDEEGKPP
+---- Source data: [
+  'Eric',    'Donald',
+  'Justin',  'Katherine',
+  'Ethan',   'Charles',
+  'Frances', 'Kimberly',
+  'Noah',    'Paul'
+]
+---- Initialis : CDEEFJKKNP
+---- Source data: [
+  'Ann',      'Nancy',
+  'Nicholas', 'Alexander',
+  'Charles',  'Johnny',
+  'Philip',   'Jeffrey',
+  'Kenneth',  'Raymond'
+]
+---- Initialis : AACJJKNNPR
+---- Source data: [
+  'Ann',     'Christian',
+  'Douglas', 'Justin',
+  'Eugene',  'Kayla',
+  'Anthony', 'Brian',
+  'Adam',    'Benjamin'
+]
+---- Initialis : AAABBCDEJK
+---- Source data: [
+  'Alan',     'Gregory',
+  'Peter',    'Nicole',
+  'George',   'Helen',
+  'Denise',   'Amy',
+  'Danielle', 'Heather'
+]
+---- Initialis : AADDGGHHNP
+---- Source data: [
+  'Joan',    'Gregory',
+  'Abigail', 'Brittany',
+  'Nicole',  'Sophia',
+  'Joyce',   'Juan',
+  'Julie',   'Joan'
+]
+---- Initialis : ABGJJJJJNS
+---- Source data: [
+  'Alice',   'Joe',
+  'Janet',   'Pamela',
+  'Jacob',   'Larry',
+  'Diana',   'Gerald',
+  'Douglas', 'Keith'
+]
+---- Initialis : ADDGJJJKLP
+---- Source data: [
+  'Karen',   'Andrea',
+  'Brandon', 'Lawrence',
+  'Megan',   'Alexis',
+  'Ann',     'Kathryn',
+  'Sharon',  'Jonathan'
+]
+---- Initialis : AAABJKKLMS
+---- Source data: [
+  'Kayla',  'Bryan',
+  'Sharon', 'Anna',
+  'Bruce',  'Bobby',
+  'Lauren', 'Kathleen',
+  'Joshua', 'Andrew'
+]
+---- Initialis : AABBBJKKLS
+---- Source data: [
+  'Carolyn',     'Olivia',
+  'Gary',        'Ethan',
+  'Dorothy',     'Kelly',
+  'Sean',        'Jose',
+  'Christopher', 'Judy'
+]
+---- Initialis : CCDEGJJKOS
+---- Source data: [
+  'Dylan',   'Keith',
+  'Madison', 'Ralph',
+  'Olivia',  'Raymond',
+  'Megan',   'Frank',
+  'Daniel',  'Carol'
+]
+---- Initialis : CDDFKMMORR
+---- Source data: [
+  'Gregory', 'Kayla',
+  'Kevin',   'Benjamin',
+  'Randy',   'Sandra',
+  'Alan',    'Patrick',
+  'Angela',  'Katherine'
+]
+---- Initialis : AABGKKKPRS
+---- Source data: [
+  'Evelyn',  'Wayne',
+  'Ryan',    'Abigail',
+  'Theresa', 'Jack',
+  'Austin',  'Willie',
+  'Judith',  'Stephen'
+]
+---- Initialis : AAEJJRSTWW
+---- Source data: [
+  'Teresa',    'Austin',
+  'Betty',     'Evelyn',
+  'Samantha',  'Noah',
+  'Christina', 'Christian',
+  'Anthony',   'Jose'
+]
+---- Initialis : AABCCEJNST
+---- Source data: [
+  'Ann',      'Sean',
+  'Kathleen', 'Harold',
+  'Beverly',  'Anna',
+  'Lawrence', 'Diane',
+  'Jesse',    'Amber'
+]
+---- Initialis : AAABDHJKLS
+---- Source data: [
+  'Austin',  'Jordan',
+  'Olivia',  'Joyce',
+  'Eugene',  'Noah',
+  'Zachary', 'Emily',
+  'Megan',   'Nathan'
+]
+---- Initialis : AEEJJMNNOZ
+---- Source data: [
+  'Diane',  'Denise',
+  'Olivia', 'Nancy',
+  'Ashley', 'Bruce',
+  'Maria',  'Megan',
+  'Gerald', 'Megan'
+]
+---- Initialis : ABDDGMMMNO
+---- Source data: [
+  'Pamela',  'Ryan',
+  'Stephen', 'Anthony',
+  'Beverly', 'Evelyn',
+  'Amanda',  'Jesse',
+  'Ruth',    'Joshua'
+]
+---- Initialis : AABEJJPRRS
+---- Source data: [
+  'Christian', 'Sophia',
+  'Sandra',    'Jerry',
+  'Gregory',   'Jonathan',
+  'Joshua',    'Theresa',
+  'Rebecca',   'Rose'
+]
+---- Initialis : CGJJJRRSST
+---- Source data: [
+  'Lori',      'Jack',
+  'Nathan',    'Kathryn',
+  'Sharon',    'Joan',
+  'Stephanie', 'Donna',
+  'Christina', 'Donald'
+]
+---- Initialis : CDDJJKLNSS
+---- Source data: [
+  'Diana',    'Philip',
+  'Joe',      'Nicole',
+  'Nicholas', 'Aaron',
+  'Jane',     'Eric',
+  'Andrew',   'Jose'
+]
+---- Initialis : AADEJJJNNP
+---- Source data: [
+  'Kayla',  'Keith',
+  'Dennis', 'Carolyn',
+  'Diane',  'Timothy',
+  'Sandra', 'Laura',
+  'Bryan',  'Heather'
+]
+---- Initialis : BCDDHKKLST
+---- Source data: [
+  'Diana',    'Frances',
+  'Emma',     'Christopher',
+  'Kathleen', 'Lori',
+  'Brittany', 'Cynthia',
+  'Dorothy',  'Grace'
+]
+---- Initialis : BCCDDEFGKL
+---- Source data: [
+  'Grace',    'Sharon',
+  'Ethan',    'Jonathan',
+  'Emily',    'Nicholas',
+  'Victoria', 'Lawrence',
+  'Beverly',  'Victoria'
+]
+---- Initialis : BEEGJLNSVV
+---- Source data: [
+  'Bobby',  'Kevin',
+  'Teresa', 'Betty',
+  'Lori',   'Joyce',
+  'Scott',  'Johnny',
+  'Cheryl', 'Ronald'
+]
+---- Initialis : BBCJJKLRST
+---- Source data: [
+  'Patrick', 'Gerald',
+  'Sophia',  'Nicholas',
+  'Jesse',   'Zachary',
+  'Nicole',  'Aaron',
+  'George',  'Nathan'
+]
+---- Initialis : AGGJNNNPSZ
+---- Source data: [
+  'Russell', 'Willie',
+  'Sophia',  'Gabriel',
+  'Jane',    'Gabriel',
+  'Samuel',  'Jesse',
+  'Timothy', 'Eugene'
+]
+---- Initialis : EGGJJRSSTW
+---- Source data: [
+  'Henry',  'Peter',
+  'Amber',  'Jordan',
+  'Lauren', 'Andrew',
+  'Emma',   'Gregory',
+  'Kayla',  'Deborah'
+]
+---- Initialis : AADEGHJKLP
+---- Source data: [
+  'Dennis',    'Kimberly',
+  'Bryan',     'Kyle',
+  'Gregory',   'Ruth',
+  'Christina', 'Vincent',
+  'Noah',      'Cheryl'
+]
+---- Initialis : BCCDGKKNRV
+---- Source data: [
+  'Ryan',       'Keith',
+  'Deborah',    'Jerry',
+  'Gerald',     'Janet',
+  'Jacqueline', 'Philip',
+  'Heather',    'Harold'
+]
+---- Initialis : DGHHJJJKPR
+---- Source data: [
+  'Christina', 'Austin',
+  'Alice',     'Beverly',
+  'Margaret',  'Jordan',
+  'Janet',     'Gregory',
+  'Betty',     'Cynthia'
+]
+---- Initialis : AABBCCGJJM
+---- Source data: [
+  'Madison', 'Walter',
+  'Nancy',   'Gloria',
+  'Kevin',   'Gabriel',
+  'Helen',   'Juan',
+  'Sandra',  'Brenda'
+]
+---- Initialis : BGGHJKMNSW
+---- Source data: [
+  'Peter',  'Heather',
+  'Philip', 'Hannah',
+  'Amy',    'Mark',
+  'Karen',  'Betty',
+  'Karen',  'Christina'
+]
+---- Initialis : ABCHHKKMPP
+---- Source data: [
+  'Natalie', 'Jordan',
+  'Jordan',  'Christine',
+  'Ashley',  'Shirley',
+  'Gary',    'Cynthia',
+  'Juan',    'Theresa'
+]
+---- Initialis : ACCGJJJNST
+---- Source data: [
+  'Kathleen', 'Bruce',
+  'Nancy',    'Evelyn',
+  'Carl',     'Judy',
+  'Natalie',  'Keith',
+  'Jack',     'Grace'
+]
+---- Initialis : BCEGJJKKNN
+---- Source data: [
+  'Sandra', 'Stephen',
+  'Angela', 'Frances',
+  'Amber',  'Diana',
+  'Ronald', 'Louis',
+  'Judy',   'Jack'
+]
+---- Initialis : AADFJJLRSS
+---- Source data: [
+  'Andrea',    'Carol',
+  'Katherine', 'Evelyn',
+  'Donald',    'Stephanie',
+  'Sharon',    'Aaron',
+  'Jose',      'Evelyn'
+]
+---- Initialis : AACDEEJKSS
+---- Source data: [
+  'Marilyn', 'Adam',
+  'Charles', 'Lisa',
+  'Bryan',   'Aaron',
+  'Marie',   'Christine',
+  'Nicole',  'Catherine'
+]
+---- Initialis : AABCCCLMMN
+---- Source data: [
+  'Theresa', 'Jeffrey',
+  'Justin',  'Brenda',
+  'Sharon',  'Teresa',
+  'Janet',   'Jack',
+  'Gerald',  'Amber'
+]
+---- Initialis : ABGJJJJSTT
+---- Source data: [
+  'Rachel',      'Samantha',
+  'Alan',        'Carol',
+  'Jeremy',      'Bruce',
+  'Carol',       'Steven',
+  'Christopher', 'Jacqueline'
+]
+---- Initialis : ABCCCJJRSS
+---- Source data: [
+  'Lawrence', 'Noah',
+  'Paul',     'Megan',
+  'Carol',    'Kathryn',
+  'Ralph',    'Eugene',
+  'Timothy',  'Janet'
+]
+---- Initialis : CEJKLMNPRT
+---- Source data: [
+  'Patrick',   'Gabriel',
+  'Amber',     'Jacqueline',
+  'Katherine', 'Kelly',
+  'Christian', 'Evelyn',
+  'Billy',     'Lauren'
+]
+---- Initialis : ABCEGJKKLP
+---- Source data: [
+  'Olivia', 'Stephen',
+  'Tyler',  'Nicole',
+  'Jordan', 'Ruth',
+  'Lisa',   'Kathleen',
+  'Jordan', 'Angela'
+]
+---- Initialis : AJJKLNORST
+---- Source data: [
+  'Peter',    'Brian',
+  'Ashley',   'Patrick',
+  'Austin',   'Lisa',
+  'Margaret', 'Austin',
+  'Nancy',    'Eric'
+]
+---- Initialis : AAABELMNPP
+---- Source data: [
+  'Jeffrey',   'Mark',
+  'Nicholas',  'Hannah',
+  'Lauren',    'Evelyn',
+  'Mark',      'Adam',
+  'Catherine', 'Samuel'
+]
+---- Initialis : ACEHJLMMNS
+---- Source data: [
+  'Frances', 'Karen',
+  'Laura',   'Jonathan',
+  'Andrew',  'Debra',
+  'Philip',  'Jonathan',
+  'Peter',   'Donna'
+]
+---- Initialis : ADDFJJKLPP
+---- Source data: [
+  'Scott',     'Mark',
+  'Lawrence',  'Theresa',
+  'Logan',     'Ronald',
+  'Sara',      'Jeremy',
+  'Alexander', 'Ryan'
+]
+---- Initialis : AJLLMRRSST
+---- Source data: [
+  'Carol',     'Ethan',
+  'Katherine', 'Amanda',
+  'Olivia',    'Marilyn',
+  'Jean',      'Madison',
+  'Karen',     'Cynthia'
+]
+---- Initialis : ACCEJKKMMO
+---- Source data: [
+  'Nathan', 'Sophia',
+  'Cheryl', 'Nathan',
+  'Austin', 'Dorothy',
+  'Jesse',  'Marilyn',
+  'Gary',   'Carl'
+]
+---- Initialis : ACCDGJMNNS
+---- Source data: [
+  'Carolyn', 'Gabriel',
+  'Henry',   'Madison',
+  'Heather', 'Lori',
+  'Cheryl',  'Benjamin',
+  'Jean',    'Cynthia'
+]
+---- Initialis : BCCCGHHJLM
+---- Source data: [
+  'Angela',  'Denise',
+  'Kayla',   'Eugene',
+  'Tyler',   'Jeffrey',
+  'Kathryn', 'Stephen',
+  'Ethan',   'Jeremy'
+]
+---- Initialis : ADEEJJKKST
+---- Source data: [
+  'Edward', 'Carl',
+  'Joyce',  'Cheryl',
+  'Gary',   'Henry',
+  'Philip', 'Christina',
+  'Edward', 'Nicholas'
+]
+---- Initialis : CCCEEGHJNP
+---- Source data: [
+  'Emma',      'Danielle',
+  'Albert',    'Justin',
+  'Edward',    'Douglas',
+  'Alexander', 'Alan',
+  'Terry',     'Mark'
+]
+---- Initialis : AAADDEEJMT
+---- Source data: [
+  'Austin',    'Eric',
+  'Catherine', 'Theresa',
+  'Kathleen',  'Nicole',
+  'Alexis',    'Nathan',
+  'Jacob',     'Johnny'
+]
+---- Initialis : AACEJJKNNT
+---- Source data: [
+  'Bruce',   'Mark',
+  'Marilyn', 'Kyle',
+  'Carolyn', 'Marie',
+  'Kenneth', 'Lawrence',
+  'Matthew', 'Christine'
+]
+---- Initialis : BCCKKLMMMM
+---- Source data: [
+  'Emma',      'Christian',
+  'Alan',      'Beverly',
+  'Nathan',    'Peter',
+  'Catherine', 'Brenda',
+  'Andrea',    'Logan'
+]
+---- Initialis : AABBCCELNP
+---- Source data: [
+  'Raymond', 'Bruce',
+  'Emily',   'Jacob',
+  'Nancy',   'Lori',
+  'Kathryn', 'Vincent',
+  'Raymond', 'Janet'
+]
+---- Initialis : BEJJKLNRRV
+---- Source data: [
+  'Kayla',  'Karen',
+  'Dylan',  'Debra',
+  'Kayla',  'Janet',
+  'Lauren', 'Louis',
+  'Hannah', 'Nathan'
+]
+---- Initialis : DDHJKKKLLN
+---- Source data: [
+  'Carolyn',  'Logan',
+  'Mark',     'Maria',
+  'Bryan',    'Laura',
+  'Danielle', 'Michelle',
+  'Eric',     'Debra'
+]
+---- Initialis : BCDDELLMMM
+---- Source data: [
+  'Nicole',  'George',
+  'Charles', 'Megan',
+  'Andrea',  'Judy',
+  'Peter',   'Matthew',
+  'Helen',   'Christina'
+]
+---- Initialis : ACCGHJMMNP
+---- Source data: [
+  'Sandra',    'Shirley',
+  'Katherine', 'Kyle',
+  'Katherine', 'Sean',
+  'Jonathan',  'Alice',
+  'Adam',      'Kyle'
+]
+---- Initialis : AAJKKKKSSS
+---- Source data: [
+  'Dylan',    'Arthur',
+  'Laura',    'Betty',
+  'Anthony',  'Stephanie',
+  'Alan',     'Marie',
+  'Samantha', 'Adam'
+]
+---- Initialis : AAAABDLMSS
+---- Source data: [
+  'Danielle', 'Albert',
+  'Jesse',    'Grace',
+  'Vincent',  'Margaret',
+  'Alan',     'Jose',
+  'Emily',    'Heather'
+]
+---- Initialis : AADEGHJJMV
+---- Source data: [
+  'Ann',    'Louis',
+  'Kevin',  'Jeffrey',
+  'Jerry',  'Gary',
+  'Louis',  'Andrew',
+  'Janice', 'Austin'
+]
+---- Initialis : AAAGJJJKLL
+---- Source data: [
+  'Frank',   'Carolyn',
+  'Stephen', 'Shirley',
+  'Carl',    'Anthony',
+  'Madison', 'Anna',
+  'Roger',   'Jerry'
+]
+---- Initialis : AACCFJMRSS
+---- Source data: [
+  'Christopher', 'Zachary',
+  'Frank',       'Michelle',
+  'Cynthia',     'Nathan',
+  'Deborah',     'Hannah',
+  'Jane',        'Gary'
+]
+---- Initialis : CCDFGHJMNZ
+---- Source data: [
+  'Kelly',     'Austin',
+  'Frances',   'Frances',
+  'Christian', 'Douglas',
+  'Andrew',    'Andrew',
+  'Diana',     'Raymond'
+]
+---- Initialis : AAACDDFFKR
+---- Source data: [
+  'Cynthia',  'Sharon',
+  'Jesse',    'Eric',
+  'Abigail',  'Judy',
+  'Jonathan', 'Joe',
+  'Cynthia',  'Ann'
+]
+---- Initialis : AACCEJJJJS
+---- Source data: [
+  'Theresa', 'Cynthia',
+  'Kayla',   'Evelyn',
+  'Aaron',   'Joshua',
+  'Kyle',    'Dylan',
+  'Betty',   'Ann'
+]
+---- Initialis : AABCDEJKKT
+---- Source data: [
+  'Deborah', 'Ruth',
+  'Betty',   'Stephanie',
+  'Anna',    'Judy',
+  'Jeremy',  'Abigail',
+  'Ronald',  'Christine'
+]
+---- Initialis : AABCDJJRRS
+---- Source data: [
+  'George',    'Brian',
+  'Christine', 'Charles',
+  'Bruce',     'Philip',
+  'Johnny',    'Steven',
+  'Brandon',   'Mark'
+]
+---- Initialis : BBBCCGJMPS
+---- Source data: [
+  'Kathleen', 'Zachary',
+  'Ryan',     'Martha',
+  'Marilyn',  'Laura',
+  'Bruce',    'Olivia',
+  'Donald',   'Deborah'
+]
+---- Initialis : BDDKLMMORZ
+---- Source data: [
+  'Julia',    'Marie',
+  'Lawrence', 'Melissa',
+  'Mark',     'Teresa',
+  'Alice',    'Scott',
+  'Edward',   'Gregory'
+]
+---- Initialis : AEGJLMMMST
+---- Source data: [
+  'Johnny', 'Margaret',
+  'Sharon', 'Julie',
+  'Gloria', 'Danielle',
+  'Cheryl', 'Betty',
+  'Joe',    'Stephen'
+]
+---- Initialis : BCDGJJJMSS
+---- Source data: [
+  'Ruth',    'Johnny',
+  'Noah',    'Nicholas',
+  'Jesse',   'Hannah',
+  'Shirley', 'Bobby',
+  'Roy',     'Raymond'
+]
+---- Initialis : BHJJNNRRRS
+---- Source data: [
+  'Mark',     'Catherine',
+  'Alan',     'Aaron',
+  'Betty',    'Kathryn',
+  'Jesse',    'Christine',
+  'Danielle', 'Evelyn'
+]
+---- Initialis : AABCCDEJKM
+---- Source data: [
+  'Patrick', 'Daniel',
+  'Bryan',   'Rebecca',
+  'Debra',   'Angela',
+  'Juan',    'Kelly',
+  'Olivia',  'Diana'
+]
+---- Initialis : ABDDDJKOPR
+---- Source data: [
+  'Raymond', 'Kevin',
+  'Roy',     'Paul',
+  'Laura',   'Samuel',
+  'Jack',    'Sara',
+  'Julia',   'Janice'
+]
+---- Initialis : JJJKLPRRSS
+---- Source data: [
+  'Willie',  'Debra',
+  'Daniel',  'Vincent',
+  'Carolyn', 'Jason',
+  'Brenda',  'Joe',
+  'Brandon', 'Lawrence'
+]
+---- Initialis : BBCDDJJLVW
+---- Source data: [
+  'Philip',   'Tyler',
+  'Jacob',    'Samantha',
+  'Beverly',  'Doris',
+  'Jordan',   'Melissa',
+  'Brittany', 'Nicole'
+]
+---- Initialis : BBDJJMNPST
+---- Source data: [
+  'Karen',   'Theresa',
+  'Marie',   'Jacob',
+  'Douglas', 'Evelyn',
+  'Sharon',  'George',
+  'Madison', 'Kayla'
+]
+---- Initialis : DEGJKKMMST
+---- Source data: [
+  'Jose',     'Daniel',
+  'Emma',     'Nancy',
+  'Janice',   'Martha',
+  'Jane',     'Betty',
+  'Nicholas', 'Kyle'
+]
+---- Initialis : BDEJJJKMNN
+---- Source data: [
+  'Vincent',   'Karen',
+  'Bruce',     'Nancy',
+  'Christina', 'Edward',
+  'Amber',     'Debra',
+  'George',    'Lori'
+]
+---- Initialis : ABCDEGKLNV
+---- Source data: [
+  'Ethan',   'Donna',
+  'Vincent', 'Timothy',
+  'Edward',  'Eric',
+  'Hannah',  'Henry',
+  'Lori',    'Joyce'
+]
+---- Initialis : DEEEHHJLTV
+---- Source data: [
+  'Kathleen', 'Julie',
+  'Noah',     'Dylan',
+  'Sandra',   'Heather',
+  'Diana',    'Melissa',
+  'Aaron',    'Terry'
+]
+---- Initialis : ADDHJKMNST
+---- Source data: [
+  'Paul',    'Roger',
+  'Marilyn', 'Victoria',
+  'Amber',   'Vincent',
+  'Sandra',  'Benjamin',
+  'Sean',    'Kyle'
+]
+---- Initialis : ABKMPRSSVV
+---- Source data: [
+  'Helen',    'Deborah',
+  'Bradley',  'Sandra',
+  'Michelle', 'Shirley',
+  'Theresa',  'Brenda',
+  'Lisa',     'Anna'
+]
+---- Initialis : ABBDHLMSST
+---- Source data: [
+  'Donald', 'Bruce',
+  'Edward', 'Kimberly',
+  'Randy',  'Rebecca',
+  'Alice',  'Katherine',
+  'Alan',   'Samantha'
+]
+---- Initialis : AABDEKKRRS
+---- Source data: [
+  'Frank',   'Jonathan',
+  'Ethan',   'Helen',
+  'Jordan',  'Ashley',
+  'Bradley', 'Jane',
+  'Gregory', 'Pamela'
+]
+---- Initialis : ABEFGHJJJP
+---- Source data: [
+  'Lauren',  'Sean',
+  'Laura',   'Nancy',
+  'Roy',     'Samuel',
+  'Hannah',  'Sandra',
+  'Shirley', 'Eugene'
+]
+---- Initialis : EHLLNRSSSS
+---- Source data: [
+  'Abigail', 'Vincent',
+  'Jacob',   'Sean',
+  'Brian',   'Donna',
+  'Bryan',   'Stephen',
+  'Ruth',    'Gabriel'
+]
+---- Initialis : ABBDGJRSSV
+---- Source data: [
+  'Catherine', 'Walter',
+  'Rachel',    'Brandon',
+  'Lori',      'Kimberly',
+  'Keith',     'Brandon',
+  'Johnny',    'Anna'
+]
+---- Initialis : ABBCJKKLRW
+---- Source data: [
+  'Laura',   'Stephanie',
+  'Lisa',    'Steven',
+  'Rebecca', 'Dorothy',
+  'Peter',   'Matthew',
+  'Logan',   'Frank'
+]
+---- Initialis : DFLLLMPRSS
+---- Source data: [
+  'Brenda',   'Terry',
+  'Karen',    'Deborah',
+  'Samantha', 'Roy',
+  'Helen',    'Victoria',
+  'Adam',     'Michelle'
+]
+---- Initialis : ABDHKMRSTV
+---- Source data: [
+  'Martha',   'Melissa',
+  'Terry',    'Pamela',
+  'Lawrence', 'Russell',
+  'Stephen',  'Heather',
+  'Walter',   'Amy'
+]
+---- Initialis : AHLMMPRSTW
+---- Source data: [
+  'Kayla', 'Brian',
+  'Logan', 'Sharon',
+  'Ruth',  'Jean',
+  'Joyce', 'Sara',
+  'Diana', 'Edward'
+]
+---- Initialis : BDEJJKLRSS
+---- Source data: [
+  'Keith',    'Donna',
+  'Lawrence', 'Sophia',
+  'Jack',     'Kyle',
+  'Andrew',   'Natalie',
+  'Deborah',  'Noah'
+]
+---- Initialis : ADDJKKLNNS
+---- Source data: [
+  'Sophia',  'Margaret',
+  'Maria',   'Wayne',
+  'Julie',   'Samantha',
+  'Deborah', 'Diana',
+  'Bruce',   'Jacob'
+]
+---- Initialis : BDDJJMMSSW
+---- Source data: [
+  'Kevin',   'Timothy',
+  'Jeffrey', 'Albert',
+  'Laura',   'Karen',
+  'Steven',  'Diana',
+  'Sandra',  'Emma'
+]
+---- Initialis : ADEJKKLSST
+      ✔ should return sorted sequence
+---- Source data: []
+---- Initialis : 
+      ✔ empty team shouldn't lead to error
+    functional requirements 
+---- Source data: [
+  '   William Alston ',
+  ' Paul Benacerraf',
+  '  Ross Cameron',
+  '       Gilles Deleuze',
+  '  Arda Denkel ',
+  '  Michael Devitt',
+  '  Kit Fine',
+  ' Nelson Goodman',
+  'David Kolb',
+  '   Saul Kripke',
+  '  Trenton Merricks',
+  '  Jay Rosenberg'
+]
+---- Initialis : ADGJKMNPRSTW
+      ✔ should handle whitespaces
+---- Source data: [
+  'amelia', 'ruby',
+  'lily',   'grace',
+  'millie', 'daisy',
+  'freya',  'erin',
+  'megan',  'jasmine',
+  'brooke'
+]
+---- Initialis : ABDEFGJLMMR
+      ✔ should handle lowercase
+---- Source data: 3
+---- Source data: 3.312312
+---- Source data: false
+---- Source data: null
+---- Source data: undefined
+---- Source data: { foo: 'bar' }
+      ✔ should return false on wrong type
+---- Source data: [
+  'Amelia',                 null,
+  undefined,                'Ruby',
+  'Lily',                   11,
+  'Grace',                  22,
+  'Millie',                 'Daisy',
+  true,                     'Freya',
+  false,                    'Erin',
+  Set(5) { 1, 2, 3, 4, 5 }, 'Megan',
+  { John: 'Smith' },        'Jasmine',
+  1,                        2,
+  3,                        4,
+  5,                        'Brooke'
+]
+---- Initialis : ABDEFGJLMMR
+      ✔ should ignore non-string values
+---- Source data: [
+  [ 'David Abram' ],
+  [ 'Robin Attfield' ],
+  'Thomas Berry',
+  [ 'Paul R.Ehrlich' ],
+  'donna Haraway',
+  ' BrIaN_gOodWiN  ',
+  { '0': 'Serenella Iovino' },
+  'Erazim Kohak',
+  '  val_plumwood'
+]
+---- Initialis : BDETV
+      ✔ should handle non-standard cases
+
+
+  9 passing (25ms)
+
