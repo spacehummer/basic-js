@@ -39,8 +39,8 @@ function createDreamTeam(members) {
 }
 
 // Test scripts
-// npm run test > "./logs/git_log_all_tests_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
-// npm run test ./test/dream-team.test.js  > "./logs/git_log_dream-team_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
+// npm run test > "./logs/log_all_tests_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
+// npm run test ./test/dream-team.test.js  > "./logs/log_dream-team_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
 
 module.exports = {
   createDreamTeam

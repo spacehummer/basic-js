@@ -1,0 +1,215 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/hanoi-tower.test.js
+
+---- Source data: 5 , 4074
+---- Turns info object: { turns: 31, seconds: 27 }
+
+
+  Hanoi tower
+    variable presence
+      ✔ function calculateHanoi exists
+    base requirements
+---- Source data: 5 , 4074
+---- Turns info object: { turns: 31, seconds: 27 }
+---- Source data: 38 , 4594
+---- Turns info object: { turns: 274877906943, seconds: 215402800390 }
+---- Source data: 34 , 4005
+---- Turns info object: { turns: 17179869183, seconds: 15442579040 }
+---- Source data: 19 , 4770
+---- Turns info object: { turns: 524287, seconds: 395688 }
+---- Source data: 23 , 4344
+---- Turns info object: { turns: 8388607, seconds: 6951884 }
+---- Source data: 9 , 4347
+---- Turns info object: { turns: 511, seconds: 423 }
+---- Source data: 15 , 4254
+---- Turns info object: { turns: 32767, seconds: 27729 }
+---- Source data: 14 , 4681
+---- Turns info object: { turns: 16383, seconds: 12599 }
+---- Source data: 9 , 4308
+---- Turns info object: { turns: 511, seconds: 427 }
+---- Source data: 18 , 4442
+---- Turns info object: { turns: 262143, seconds: 212452 }
+---- Source data: 10 , 4159
+---- Turns info object: { turns: 1023, seconds: 885 }
+---- Source data: 44 , 4685
+---- Turns info object: { turns: 17592186044415, seconds: 13518008486636 }
+---- Source data: 39 , 4936
+---- Turns info object: { turns: 549755813887, seconds: 400956428280 }
+---- Source data: 49 , 4797
+---- Turns info object: { turns: 562949953421311, seconds: 422476512886537 }
+---- Source data: 43 , 4335
+---- Turns info object: { turns: 8796093022207, seconds: 7304713928476 }
+---- Source data: 20 , 4091
+---- Turns info object: { turns: 1048575, seconds: 922725 }
+---- Source data: 19 , 4351
+---- Turns info object: { turns: 524287, seconds: 433792 }
+---- Source data: 26 , 4164
+---- Turns info object: { turns: 67108863, seconds: 58019189 }
+---- Source data: 48 , 4040
+---- Turns info object: { turns: 281474976710655, seconds: 250819286177811 }
+---- Source data: 7 , 4090
+---- Turns info object: { turns: 127, seconds: 111 }
+---- Source data: 43 , 4431
+---- Turns info object: { turns: 8796093022207, seconds: 7146453369430 }
+---- Source data: 46 , 4851
+---- Turns info object: { turns: 70368744177663, seconds: 52221702543720 }
+---- Source data: 13 , 4333
+---- Turns info object: { turns: 8191, seconds: 6805 }
+---- Source data: 20 , 4693
+---- Turns info object: { turns: 1048575, seconds: 804361 }
+---- Source data: 26 , 4713
+---- Turns info object: { turns: 67108863, seconds: 51260748 }
+---- Source data: 31 , 4540
+---- Turns info object: { turns: 2147483647, seconds: 1702850468 }
+---- Source data: 9 , 4128
+---- Turns info object: { turns: 511, seconds: 445 }
+---- Source data: 3 , 4941
+---- Turns info object: { turns: 7, seconds: 5 }
+---- Source data: 39 , 4005
+---- Turns info object: { turns: 549755813887, seconds: 494162529336 }
+---- Source data: 12 , 4071
+---- Turns info object: { turns: 4095, seconds: 3621 }
+---- Source data: 4 , 4504
+---- Turns info object: { turns: 15, seconds: 11 }
+---- Source data: 10 , 4050
+---- Turns info object: { turns: 1023, seconds: 909 }
+---- Source data: 19 , 4913
+---- Turns info object: { turns: 524287, seconds: 384171 }
+---- Source data: 26 , 4253
+---- Turns info object: { turns: 67108863, seconds: 56805056 }
+---- Source data: 5 , 4446
+---- Turns info object: { turns: 31, seconds: 25 }
+---- Source data: 19 , 4393
+---- Turns info object: { turns: 524287, seconds: 429645 }
+---- Source data: 39 , 4421
+---- Turns info object: { turns: 549755813887, seconds: 447663634922 }
+---- Source data: 14 , 4179
+---- Turns info object: { turns: 16383, seconds: 14113 }
+---- Source data: 7 , 4669
+---- Turns info object: { turns: 127, seconds: 97 }
+---- Source data: 7 , 4107
+---- Turns info object: { turns: 127, seconds: 111 }
+---- Source data: 25 , 4683
+---- Turns info object: { turns: 33554431, seconds: 25794565 }
+---- Source data: 24 , 4125
+---- Turns info object: { turns: 16777215, seconds: 14641933 }
+---- Source data: 34 , 4838
+---- Turns info object: { turns: 17179869183, seconds: 12783697614 }
+---- Source data: 42 , 4498
+---- Turns info object: { turns: 4398046511103, seconds: 3520001654061 }
+---- Source data: 15 , 4400
+---- Turns info object: { turns: 32767, seconds: 26809 }
+---- Source data: 34 , 4951
+---- Turns info object: { turns: 17179869183, seconds: 12491926693 }
+---- Source data: 29 , 4808
+---- Turns info object: { turns: 536870911, seconds: 401983211 }
+---- Source data: 46 , 4938
+---- Turns info object: { turns: 70368744177663, seconds: 51301636095501 }
+---- Source data: 8 , 4734
+---- Turns info object: { turns: 255, seconds: 193 }
+---- Source data: 14 , 4004
+---- Turns info object: { turns: 16383, seconds: 14729 }
+---- Source data: 21 , 4581
+---- Turns info object: { turns: 2097151, seconds: 1648055 }
+---- Source data: 19 , 4832
+---- Turns info object: { turns: 524287, seconds: 390611 }
+---- Source data: 2 , 4840
+---- Turns info object: { turns: 3, seconds: 2 }
+---- Source data: 21 , 4892
+---- Turns info object: { turns: 2097151, seconds: 1543283 }
+---- Source data: 11 , 4769
+---- Turns info object: { turns: 2047, seconds: 1545 }
+---- Source data: 23 , 4714
+---- Turns info object: { turns: 8388607, seconds: 6406233 }
+---- Source data: 38 , 4801
+---- Turns info object: { turns: 274877906943, seconds: 206115489480 }
+---- Source data: 3 , 4616
+---- Turns info object: { turns: 7, seconds: 5 }
+---- Source data: 36 , 4381
+---- Turns info object: { turns: 68719476735, seconds: 56468869264 }
+---- Source data: 34 , 4103
+---- Turns info object: { turns: 17179869183, seconds: 15073733623 }
+---- Source data: 7 , 4153
+---- Turns info object: { turns: 127, seconds: 110 }
+---- Source data: 15 , 4789
+---- Turns info object: { turns: 32767, seconds: 24631 }
+---- Source data: 45 , 4245
+---- Turns info object: { turns: 35184372088831, seconds: 29838336753778 }
+---- Source data: 41 , 4880
+---- Turns info object: { turns: 2199023255551, seconds: 1622230270488 }
+---- Source data: 46 , 4495
+---- Turns info object: { turns: 70368744177663, seconds: 56357614914257 }
+---- Source data: 20 , 4116
+---- Turns info object: { turns: 1048575, seconds: 917120 }
+---- Source data: 47 , 4399
+---- Turns info object: { turns: 140737488355327, seconds: 115175030252143 }
+---- Source data: 24 , 4710
+---- Turns info object: { turns: 16777215, seconds: 12823349 }
+---- Source data: 21 , 4393
+---- Turns info object: { turns: 2097151, seconds: 1718584 }
+---- Source data: 17 , 4195
+---- Turns info object: { turns: 131071, seconds: 112480 }
+---- Source data: 24 , 4897
+---- Turns info object: { turns: 16777215, seconds: 12333668 }
+---- Source data: 17 , 4571
+---- Turns info object: { turns: 131071, seconds: 103228 }
+---- Source data: 19 , 4999
+---- Turns info object: { turns: 524287, seconds: 377562 }
+---- Source data: 18 , 4807
+---- Turns info object: { turns: 262143, seconds: 196320 }
+---- Source data: 14 , 4833
+---- Turns info object: { turns: 16383, seconds: 12203 }
+---- Source data: 5 , 4216
+---- Turns info object: { turns: 31, seconds: 26 }
+---- Source data: 22 , 4886
+---- Turns info object: { turns: 4194303, seconds: 3090358 }
+---- Source data: 30 , 4698
+---- Turns info object: { turns: 1073741823, seconds: 822790668 }
+---- Source data: 20 , 4036
+---- Turns info object: { turns: 1048575, seconds: 935299 }
+---- Source data: 6 , 4604
+---- Turns info object: { turns: 63, seconds: 49 }
+---- Source data: 25 , 4534
+---- Turns info object: { turns: 33554431, seconds: 26642247 }
+---- Source data: 7 , 4023
+---- Turns info object: { turns: 127, seconds: 113 }
+---- Source data: 47 , 4983
+---- Turns info object: { turns: 140737488355327, seconds: 101676692369893 }
+---- Source data: 12 , 4122
+---- Turns info object: { turns: 4095, seconds: 3576 }
+---- Source data: 47 , 4930
+---- Turns info object: { turns: 140737488355327, seconds: 102769768373058 }
+---- Source data: 49 , 4533
+---- Turns info object: { turns: 562949953421311, seconds: 447081366052662 }
+---- Source data: 27 , 4296
+---- Turns info object: { turns: 134217727, seconds: 112472955 }
+---- Source data: 7 , 4516
+---- Turns info object: { turns: 127, seconds: 101 }
+---- Source data: 36 , 4750
+---- Turns info object: { turns: 68719476735, seconds: 52082129736 }
+---- Source data: 8 , 4694
+---- Turns info object: { turns: 255, seconds: 195 }
+---- Source data: 26 , 4884
+---- Turns info object: { turns: 67108863, seconds: 49465992 }
+---- Source data: 4 , 4999
+---- Turns info object: { turns: 15, seconds: 10 }
+---- Source data: 38 , 4971
+---- Turns info object: { turns: 274877906943, seconds: 199066679741 }
+---- Source data: 18 , 4808
+---- Turns info object: { turns: 262143, seconds: 196280 }
+---- Source data: 18 , 4760
+---- Turns info object: { turns: 262143, seconds: 198259 }
+---- Source data: 29 , 4364
+---- Turns info object: { turns: 536870911, seconds: 442881594 }
+---- Source data: 44 , 4468
+---- Turns info object: { turns: 17592186044415, seconds: 14174545604273 }
+---- Source data: 46 , 4236
+---- Turns info object: { turns: 70368744177663, seconds: 59803465306795 }
+---- Source data: 15 , 4522
+---- Turns info object: { turns: 32767, seconds: 26086 }
+      ✔ returns correct answer
+
+
+  2 passing (15ms)
+
