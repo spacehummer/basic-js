@@ -32,6 +32,10 @@ function countCats(matrix) {
 
 }
 
+// Test scripts
+// npm run test > "./logs/git_log_all_tests_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
+// npm run test ./test/count-cats.test.js  > "./logs/git_log_count_cats_-_$(date +%Y-%m-%d_-_%k_%M_%S).log"
+
 // countCats(
 //   [
 //     [0, 1, '^^'],
