@@ -1,0 +1,5 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/hanoi-tower.test.js
+
+---- Source data: 5 , 4074

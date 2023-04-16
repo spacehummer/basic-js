@@ -1,0 +1,169 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/what-season.test.js
+
+
+
+  What season
+    variable presence
+      ✔ function getSeason exists
+    base requirements
+---- Source data: 2019-12-22T19:45:11.500Z
+      1) returns proper value
+---- Source data: 1900-01-22T20:24:51.500Z
+      2) returns proper value if date is before 1970
+---- Source data: 2025-02-22T19:45:11.500Z
+      3) returns proper value (month index)
+---- Source data: undefined
+      4) corretly handles argument absence
+---- Source data: 2150-08-21T14:36:41.841Z
+      5) some pack of tests
+    extended requirements 
+---- Source data: foo
+---- Season : null
+---- Source data: { John: 'Smith' }
+---- Season : null
+---- Source data: 20192701
+---- Season : null
+---- Source data: [ 2019, '27', '01' ]
+---- Season : null
+---- Source data: [Function (anonymous)]
+---- Season : null
+      6) throws an error with message "Invalid date!" on invalid argument
+---- Source data: Date {
+  toString: [Function: toString],
+  [Symbol(Symbol.toStringTag)]: 'Date'
+}
+      7) throws an error with message "Invalid date!" on tricky moment
+---- Source data: Date {
+  toString: [Function: toString],
+  getMonth: [Function: getMonth],
+  getFullYear: [Function: getFullYear],
+  getDate: [Function: getDate],
+  getHours: [Function: getHours],
+  getMinutes: [Function: getMinutes],
+  getSeconds: [Function: getSeconds],
+  getMilliseconds: [Function: getMilliseconds],
+  getDay: [Function: getDay],
+  [Symbol(Symbol.toStringTag)]: 'Date'
+}
+      8) throws an error with message "Invalid date!" on a very tricky moment
+
+
+  1 passing (19ms)
+  8 failing
+
+  1) What season
+       base requirements
+         returns proper value:
+
+      AssertionError: expected 'Invalid date!' to equal 'winter'
+      + expected - actual
+
+      -Invalid date!
+      +winter
+      
+      at Context.<anonymous> (test\what-season.test.js:37:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  2) What season
+       base requirements
+         returns proper value if date is before 1970:
+
+      AssertionError: expected 'Invalid date!' to equal 'winter'
+      + expected - actual
+
+      -Invalid date!
+      +winter
+      
+      at Context.<anonymous> (test\what-season.test.js:55:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  3) What season
+       base requirements
+         returns proper value (month index):
+
+      AssertionError: expected 'Invalid date!' to equal 'winter'
+      + expected - actual
+
+      -Invalid date!
+      +winter
+      
+      at Context.<anonymous> (test\what-season.test.js:73:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  4) What season
+       base requirements
+         corretly handles argument absence:
+
+      AssertionError: expected true to equal false
+      + expected - actual
+
+      -true
+      +false
+      
+      at Context.<anonymous> (test\what-season.test.js:83:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  5) What season
+       base requirements
+         some pack of tests:
+
+      AssertionError: expected 'Invalid date!' to equal 'summer'
+      + expected - actual
+
+      -Invalid date!
+      +summer
+      
+      at Context.<anonymous> (test\what-season.test.js:88:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  6) What season
+       extended requirements 
+         throws an error with message "Invalid date!" on invalid argument:
+
+      AssertionError: expected false to equal true
+      + expected - actual
+
+      -false
+      +true
+      
+      at Context.<anonymous> (test\what-season.test.js:200:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  7) What season
+       extended requirements 
+         throws an error with message "Invalid date!" on tricky moment:
+
+      AssertionError: expected false to equal true
+      + expected - actual
+
+      -false
+      +true
+      
+      at Context.<anonymous> (test\what-season.test.js:217:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  8) What season
+       extended requirements 
+         throws an error with message "Invalid date!" on a very tricky moment:
+
+      AssertionError: expected false to equal true
+      + expected - actual
+
+      -false
+      +true
+      
+      at Context.<anonymous> (test\what-season.test.js:258:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+

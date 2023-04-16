@@ -1,0 +1,164 @@
+
+> basic-js@1.0.0 test
+> mocha ./test/what-season.test.js
+
+
+
+  What season
+    variable presence
+      ✔ function getSeason exists
+    base requirements
+**** Source data: 2019-12-22T19:45:11.500Z
+---- getTime() test: 1577043911500
+---- Mounth : 11
+---- Season : autumn
+      1) returns proper value
+**** Source data: 1900-01-22T20:24:51.500Z
+---- getTime() test: -2207100908500
+---- Mounth : 0
+---- Season : winter
+**** Source data: 1354-05-17T08:06:44.321Z
+---- getTime() test: -19427269995679
+---- Mounth : 4
+---- Season : spring
+**** Source data: 1901-07-13T20:24:51.500Z
+---- getTime() test: -2160704108500
+---- Mounth : 6
+---- Season : summer
+**** Source data: 1922-09-22T00:00:11.500Z
+---- getTime() test: -1491955188500
+---- Mounth : 8
+---- Season : summer
+      2) returns proper value if date is before 1970
+**** Source data: 2025-02-22T19:45:11.500Z
+---- getTime() test: 1740253511500
+---- Mounth : 1
+---- Season : winter
+**** Source data: 2134-03-17T07:27:04.321Z
+---- getTime() test: 5181866824321
+---- Mounth : 2
+---- Season : winter
+      3) returns proper value (month index)
+**** Source data: undefined
+      4) corretly handles argument absence
+**** Source data: 2150-08-21T14:36:41.841Z
+---- getTime() test: 5700379001841
+---- Mounth : 7
+---- Season : summer
+**** Source data: 1983-10-25T12:20:23.544Z
+---- getTime() test: 435932423544
+---- Mounth : 9
+---- Season : autumn
+**** Source data: 1981-11-13T08:50:13.493Z
+---- getTime() test: 374489413493
+---- Mounth : 10
+---- Season : autumn
+**** Source data: 0481-02-05T18:38:17.272Z
+---- getTime() test: -46985116902728
+---- Mounth : 1
+---- Season : winter
+**** Source data: 0369-10-26T01:17:40.377Z
+---- getTime() test: -50496907339623
+---- Mounth : 9
+---- Season : autumn
+**** Source data: 0866-03-10T09:32:50.825Z
+---- getTime() test: -34832903229175
+---- Mounth : 2
+---- Season : winter
+      5) some pack of tests
+    extended requirements 
+**** Source data: foo
+**** Source data: { John: 'Smith' }
+**** Source data: 20192701
+**** Source data: [ 2019, '27', '01' ]
+**** Source data: [Function (anonymous)]
+      ✔ throws an error with message "Invalid date!" on invalid argument
+**** Source data: Date {
+  toString: [Function: toString],
+  [Symbol(Symbol.toStringTag)]: 'Date'
+}
+      ✔ throws an error with message "Invalid date!" on tricky moment
+**** Source data: Date {
+  toString: [Function: toString],
+  getMonth: [Function: getMonth],
+  getFullYear: [Function: getFullYear],
+  getDate: [Function: getDate],
+  getHours: [Function: getHours],
+  getMinutes: [Function: getMinutes],
+  getSeconds: [Function: getSeconds],
+  getMilliseconds: [Function: getMilliseconds],
+  getDay: [Function: getDay],
+  [Symbol(Symbol.toStringTag)]: 'Date'
+}
+      ✔ throws an error with message "Invalid date!" on a very tricky moment
+
+
+  4 passing (23ms)
+  5 failing
+
+  1) What season
+       base requirements
+         returns proper value:
+
+      AssertionError: expected 'autumn' to equal 'winter'
+      + expected - actual
+
+      -autumn
+      +winter
+      
+      at Context.<anonymous> (test\what-season.test.js:37:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  2) What season
+       base requirements
+         returns proper value if date is before 1970:
+     AssertionError: expected 'summer' to match /autumn|fall/
+      at Context.<anonymous> (test\what-season.test.js:58:42)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  3) What season
+       base requirements
+         returns proper value (month index):
+
+      AssertionError: expected 'winter' to equal 'spring'
+      + expected - actual
+
+      -winter
+      +spring
+      
+      at Context.<anonymous> (test\what-season.test.js:74:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  4) What season
+       base requirements
+         corretly handles argument absence:
+
+      AssertionError: expected true to equal false
+      + expected - actual
+
+      -true
+      +false
+      
+      at Context.<anonymous> (test\what-season.test.js:83:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+  5) What season
+       base requirements
+         some pack of tests:
+
+      AssertionError: expected 'winter' to equal 'spring'
+      + expected - actual
+
+      -winter
+      +spring
+      
+      at Context.<anonymous> (test\what-season.test.js:93:20)
+      at Context.test (extensions\it-optional.js:21:12)
+      at process.processImmediate (node:internal/timers:471:21)
+
+
+
